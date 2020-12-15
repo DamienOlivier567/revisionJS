@@ -1,0 +1,9 @@
+.classTest{
+    position: absolute;
+    left: 200rem;
+    top: 0;
+    font-size: 30rem;
+    color: cadetblue;
+    background-color: pink;
+    border: 1px dashed lightgrey;
+}

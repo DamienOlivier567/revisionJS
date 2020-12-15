@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        label, input, textarea, select{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<form action="#">
+    <label for="nom">Nom</label>
+    <input type="text" placeholder="Votre nom" id="nom">
+
+    <label for="prenom">Prenom</label>
+    <input type="text" placeholder="Votre prenom" id="prenom">
+
+    <label for="password">Password</label>
+    <input type="password" id="password">
+
+    <label for="email">email</label>
+    <input type="email" id="email">
+
+    <label for="area">Ton texte</label>
+    <textarea name="area" id="area" cols="30" rows="10"></textarea>
+    <span id="max"></span>
+
+    <label for="select">Select</label>
+    <select name="select" id="select">
+        <option value="Value 1">Value 1</option>
+        <option value="Value 2">Value 2</option>
+        <option value="Value 3">Value 3</option>
+        <option value="Value 4">Value 4</option>
+        <option value="Value 5">Value 5</option>
+    </select>
+
+    <input type="submit" value="Envoyer" id="envoyer">
+</form>
+
+    <script src="js/appFormulaire.js"></script>
+</body>
+</html>
